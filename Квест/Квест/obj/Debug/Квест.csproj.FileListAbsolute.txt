@@ -1,0 +1,20 @@
+C:\Users\Alexander\Desktop\RoleGame-master\Квест\Квест\bin\Debug\S.T.A.L.K.E.R. Сердце Оазиса.exe.config
+C:\Users\Alexander\Documents\GitHub\Siempre-con-nosotros\Квест\Квест\bin\Debug\S.T.A.L.K.E.R. Сердце Оазиса.exe.config
+C:\Users\Alexander\Documents\GitHub\Siempre-con-nosotros\Квест\Квест\obj\Debug\Квест.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Documents\GitHub\Siempre-con-nosotros\Квест\Квест\obj\Debug\Квест.FormIntro.resources
+C:\Users\Alexander\Documents\GitHub\Siempre-con-nosotros\Квест\Квест\obj\Debug\Квест.FormDialog.resources
+C:\Users\Alexander\Documents\GitHub\Siempre-con-nosotros\Квест\Квест\obj\Debug\Квест.FormLocation.resources
+C:\Users\Alexander\Documents\GitHub\Siempre-con-nosotros\Квест\Квест\obj\Debug\Квест.FormSelectGun.resources
+C:\Users\Alexander\Documents\GitHub\Siempre-con-nosotros\Квест\Квест\obj\Debug\Квест.FormBatleMonster.resources
+C:\Users\Alexander\Documents\GitHub\Siempre-con-nosotros\Квест\Квест\obj\Debug\Квест.FormSellGun.resources
+C:\Users\Alexander\Documents\GitHub\Siempre-con-nosotros\Квест\Квест\obj\Debug\Квест.FormShopGun.resources
+C:\Users\Alexander\Documents\GitHub\Siempre-con-nosotros\Квест\Квест\obj\Debug\Квест.FormShopMed.resources
+C:\Users\Alexander\Documents\GitHub\Siempre-con-nosotros\Квест\Квест\obj\Debug\Квест.FormShopSidor.resources
+C:\Users\Alexander\Documents\GitHub\Siempre-con-nosotros\Квест\Квест\obj\Debug\Квест.FormTravel.resources
+C:\Users\Alexander\Documents\GitHub\Siempre-con-nosotros\Квест\Квест\obj\Debug\Квест.inventory.resources
+C:\Users\Alexander\Documents\GitHub\Siempre-con-nosotros\Квест\Квест\obj\Debug\Квест.PDA.resources
+C:\Users\Alexander\Documents\GitHub\Siempre-con-nosotros\Квест\Квест\obj\Debug\Квест.Properties.Resources.resources
+C:\Users\Alexander\Documents\GitHub\Siempre-con-nosotros\Квест\Квест\obj\Debug\Квест.FormStatistica.resources
+C:\Users\Alexander\Documents\GitHub\Siempre-con-nosotros\Квест\Квест\obj\Debug\Квест.FormVictoryDogs.resources
+C:\Users\Alexander\Documents\GitHub\Siempre-con-nosotros\Квест\Квест\obj\Debug\Квест.FormVillage.resources
+C:\Users\Alexander\Documents\GitHub\Siempre-con-nosotros\Квест\Квест\obj\Debug\Квест.csproj.GenerateResource.Cache
