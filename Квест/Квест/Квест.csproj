@@ -8,9 +8,10 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Квест</RootNamespace>
-    <AssemblyName>Квест</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <AssemblyName>S.T.A.L.K.E.R. Сердце Оазиса</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -30,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>mini.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
@@ -52,6 +56,78 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDialog.Designer.cs">
+      <DependentUpon>FormDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLocation.designer.cs">
+      <DependentUpon>FormLocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSelectGun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSelectGun.Designer.cs">
+      <DependentUpon>FormSelectGun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBatleMonster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBatleMonster.Designer.cs">
+      <DependentUpon>FormBatleMonster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLossDogs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLossDogs.Designer.cs">
+      <DependentUpon>FormLossDogs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMapsKordon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMapsKordon.Designer.cs">
+      <DependentUpon>FormMapsKordon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPdaMaps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPdaMaps.Designer.cs">
+      <DependentUpon>FormPdaMaps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSellGun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSellGun.Designer.cs">
+      <DependentUpon>FormSellGun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormShopGun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormShopGun.Designer.cs">
+      <DependentUpon>FormShopGun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormShopMed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormShopMed.Designer.cs">
+      <DependentUpon>FormShopMed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormShopSidor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormShopSidor.Designer.cs">
+      <DependentUpon>FormShopSidor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTravel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTravel.Designer.cs">
+      <DependentUpon>FormTravel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Globals.cs" />
     <Compile Include="inventory.cs">
       <SubType>Form</SubType>
@@ -67,6 +143,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FormStatistica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStatistica.Designer.cs">
+      <DependentUpon>FormStatistica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VictoryDogs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VictoryDogs.Designer.cs">
+      <DependentUpon>VictoryDogs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Village.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +163,42 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDialog.resx">
+      <DependentUpon>FormDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLocation.resx">
+      <DependentUpon>FormLocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSelectGun.resx">
+      <DependentUpon>FormSelectGun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBatleMonster.resx">
+      <DependentUpon>FormBatleMonster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLossDogs.resx">
+      <DependentUpon>FormLossDogs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMapsKordon.resx">
+      <DependentUpon>FormMapsKordon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPdaMaps.resx">
+      <DependentUpon>FormPdaMaps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSellGun.resx">
+      <DependentUpon>FormSellGun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormShopGun.resx">
+      <DependentUpon>FormShopGun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormShopMed.resx">
+      <DependentUpon>FormShopMed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormShopSidor.resx">
+      <DependentUpon>FormShopSidor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTravel.resx">
+      <DependentUpon>FormTravel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="inventory.resx">
       <DependentUpon>inventory.cs</DependentUpon>
@@ -90,7 +214,14 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="FormStatistica.resx">
+      <DependentUpon>FormStatistica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VictoryDogs.resx">
+      <DependentUpon>VictoryDogs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Village.resx">
       <DependentUpon>Village.cs</DependentUpon>
     </EmbeddedResource>
@@ -106,6 +237,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Сидорович.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Аптечка.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Псевдопес.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ПДАjpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ПДАjpg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mini.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
